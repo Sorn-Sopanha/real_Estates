@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+body{
+  background-color: #f1fbff;
+}
+.navbar-brand{
+  font-size: 2rem;
+  font-weight: 600;
+}
+#PENG{
+  color: #ffa31a;
+  font-weight: 800;
+}
+#navbarNav{ 
+  /* display: flex; */
+  justify-content:right;
+  align-items:flex-end;
+  font-size: 18px;
+}
+.nav-link{
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 450;
+}
+section{
+  padding: 3cm;
+}
+/* .navbar{
+  position: fixed;
+  top:0;
+  left: 0;
+  right: 0;
+  z-index: 1020;
+} */
+.carousel-item img{
+  height: 100vh;
+}
+.carousel-inner::before{
+  content:'';
+  height: 100%;
+  width: 100%;
+  background: rgb(0,0,0,0.7);
+  position: absolute;
+  top:0;
+  left: 0;
+  z-index: 1;
+}
+.carousel-caption{
+  z-index: 2;
+  top: 40%;
+}
+.carousel-caption h5{
+  text-transform: uppercase;
+  font-size: 2.8rem;
+  letter-spacing: 5px;
+  
+}
+.carousel-caption .btn:hover{
+  border-color: #f1fbff;
+}
+.col-md-3 img{
+  height: 100%;
+  width: 100%;
+}
+#about p{
+  width: 80%;
+  padding: 5px;
+}
+h2{
+  font-size: 2rem;
+  font-weight: 500;
+}
+p{
+  font-size: 18px;
+}
+section .btn:hover{
+  border-color: #212223;
+
+}
+#service h2,#project h2,#team h2,#contact h2{
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#service p,#project p,#team p,#contact p,#footer p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+}
+#service .card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #242323;
+  
+}
+#service .card-title{
+ 
+  font-size: 2rem;
+  color: hsl(0, 0%, 100%,.9);
+}
+#service .card-text{
+  width: 80;
+  font-size: 1.2rem;
+  color: hsl(0, 0%, 100%,.9);
+  
+}
+.card-body{
+ text-align: center;
+ 
+}
+.bi{
+  color: #f1fbff;
+  margin-bottom: 2px;
+}
+#project .card-title{
+ 
+  font-size: 2rem;
+  color: hsla(0, 0%, 0%, 0.9);
+}
+#project .card-text{
+  width: 80;
+  font-size: 1.2rem;
+  color: rgb(0, 0, 0,.9);
+  
+}
+#project .card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  
+}
+#project .card-body{
+  width: 100%;
+  
+}
+#project img{
+  width: 100%;
+  
+}
+#team .card-title{
+ 
+  font-size: 2rem;
+  color: rgb(0, 0, 0,.9);
+}
+#team .card-text{
+  width: 80;
+  font-size: 1.2rem;
+  color: rgb(0, 0, 0,.9);
+  
+}
+#project .card,#team .card{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+#team img{
+  border-radius: 50%;
+}
+.social-link{
+  margin-top: 2rem;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+.link-list{
+  height: 20px;
+  width: 20px;
+  margin: 0.5rem;
+  border-radius: 50%;
+  color: rgb(0, 0, 0,.9);
+  cursor: pointer;
+}
+#footer{
+  margin-top: 6cm;
+  background-color: #212223;
+  color: #f1fbff;
+  padding: 0;
+}
+
+
+
